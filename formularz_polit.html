@@ -1,10 +1,64 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl-PL">
-	<head>
-		<meta charset="utf-8">
-		<title> Formularz </title>
-	</head>
-	<body>
-		<A HREF="index.html"> Wróć </a>
-	</body>
+<head>
+	<title> Formularz </title>
+	<meta charset="utf-8" />
+	<meta name="Description" content="Formularz - Prac_witr_app" />
+	<meta name="Author" content="Kamil Polit" />
+</head>
+<body align="center" bgcolor="#daf0e8">
+	<A HREF="index.html"> Wróć </a>
+	<h1> Aplikaja na stawnowisko Programisty w firmie XYZ </h1>
+	<form>
+		<table align="center" border="0" width="50%">
+			<tr align="center">
+				<td> <input type="text" style="text-align:center;"> Imie </input> </td>
+				<td> <input type="text" style="text-align:center;"> Nazwisko </input> </td>
+			</tr>
+			<tr align="center">
+				<td> 
+					<fieldset> 
+						<legend> Płeć </legend>
+						<input type="radio" name="Płeć"> Mężczyzna </input>
+						<input type="radio" name="Płeć"> Kobieta </input>
+					</fieldset>
+				</td>
+				<td> <input type="text"> Data urodzenia </input> </td>
+			</tr>
+		</table>
+			<h2> Miejsce zamieszkania </h2>
+			<input type="text"  style="text-align:center;" size="100%" />
+		<table align="center" border="0" width="50%">
+			<tr align="center">
+				<td> Email <input type="text" style="text-align:center;"/> </td>
+				<td> Nr.tel <input type="text" style="text-align:center;"/> </td>
+			</tr>
+		</table>
+		
+		<table align="center" width="41%" > <tr> <td> 
+			<div align="left">
+				<h3> Jakie zagadnienia z programowania cię interesują </h3>
+				<input type="checkbox"> Front-end </input> <br />
+				<input type="checkbox"> Back-end </input> <br />
+				<input type="checkbox"> Game Development </input> <br />
+				<input type="checkbox"> Sztuczna Inteligencja, Uczenie Maszynowe </input>
+			</div> </td> </tr> <tr> <td>
+			<div align="left">
+				<h3> Stanowisko na które aplikujesz </h3>
+				<input type="text" size="100px" />
+			</div> </td> </tr> <tr> <td>
+			<div align="left">
+				<h3> Dodatkowe informacje </h3>
+				<textarea rows="6" cols="103"> </textarea>
+			</div> </td> </tr> <tr> <td>
+			<div align="left">
+				Szkoła: <input type="text">
+			</div> </td> 
+		</table>
+		<table align="center" border="0" width="50%">
+			<td> <button> Wyślij </button> </td>
+			<td> <button> Wyczyść </button> </td>
+		</table>
+	</form>
+</body>
 </html>
